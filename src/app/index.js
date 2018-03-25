@@ -8,9 +8,9 @@ import Nav from './views/navBar'
 import App from './views/App';
 
 ReactDOM.render(
-  <BrowserRouter>react
-  <div>
-    <Nav/>
-    <Routes/>
-  </div>
+    <BrowserRouter>
+    <div>
+   <Nav/>
+    <Routes/> 
+</div>
 </BrowserRouter>, document.getElementById('app'))

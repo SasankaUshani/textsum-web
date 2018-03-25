@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
-import React, {Component} from 'react';
-import {Button} from 'react-bootstrap';
-import {Link} from 'react-router-dom';
+import React, { Component } from 'react';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export default class Team extends Component {
   // add to preference button function
@@ -12,10 +12,9 @@ export default class Team extends Component {
     };
 
     // This binding is necessary to make `this` work in the callback
-    this.handleClick = this
-      .handleClick
-      .bind(this);
+    this.handleClick = this.handleClick.bind(this);
   }
+
 
   handleClick() {
     this.setState(prevState => ({
@@ -31,24 +30,22 @@ export default class Team extends Component {
         <div className="row">
           <div className="col-md-3">
             <div className="hovereffect">
-              <img className="img-responsive" src="/assets/space.jpg" alt=""/>
+              <img className="img-responsive" src="/assets/space.jpg" alt="" />
               <div className="overlay">
                 <h2>TECHNOLOGY</h2>
                 <p>
                   <a>
-                    <br/>All new technology news
-                    <br/>
+                    <br />All new technology news
+                    <br />
                     including rocket launches,
-                    <br/>
+                    <br />
                     smart devices, as soon as they
-                    <br/>get updated
+                    <br />get updated
                   </a>
                 </p>
 
                 <Button className="btn btn-filled" onClick={this.handleClick}>
-                  {this.state.isToggleOn
-                    ? 'Add to preference'
-                    : 'Added'}
+                  {this.state.isToggleOn ? 'Add to preference' : 'Added'}
                 </Button>
               </div>
             </div>
@@ -56,17 +53,21 @@ export default class Team extends Component {
 
           <div className="col-md-3">
             <div className="hovereffect">
-              <img className="img-responsive" src="/assets/sports.jpeg" alt=""/>
+              <img
+                className="img-responsive"
+                src="/assets/sports.jpeg"
+                alt=""
+              />
               <div className="overlay">
                 <h2>SPORTS</h2>
                 <p>
                   <a>
-                    <br/>Sales Manager - Diet Club
-                    <br/>
+                    <br />Sales Manager - Diet Club
+                    <br />
                     Liberty Plaza
-                    <br/>
+                    <br />
                     Dr Colvin R de Silva Mawatha,
-                    <br/>Colombo 01000
+                    <br />Colombo 01000
                   </a>
                 </p>
               </div>
@@ -75,17 +76,17 @@ export default class Team extends Component {
 
           <div className="col-md-3">
             <div className="hovereffect">
-              <img className="img-responsive" src="/assets/health.jpg" alt=""/>
+              <img className="img-responsive" src="/assets/health.jpg" alt="" />
               <div className="overlay">
                 <h2>HEALTH</h2>
                 <p>
                   <a>
-                    <br/>Human Resource Manager - Diet Club
-                    <br/>
+                    <br />Human Resource Manager - Diet Club
+                    <br />
                     Liberty Plaza
-                    <br/>
+                    <br />
                     Dr Colvin R de Silva Mawatha,
-                    <br/>Colombo 01000
+                    <br />Colombo 01000
                   </a>
                 </p>
               </div>
@@ -94,17 +95,21 @@ export default class Team extends Component {
 
           <div className="col-md-3">
             <div className="hovereffect">
-              <img className="img-responsive" src="/assets/science.jpg" alt=""/>
+              <img
+                className="img-responsive"
+                src="/assets/science.jpg"
+                alt=""
+              />
               <div className="overlay">
                 <h2>SCIENCE</h2>
                 <p>
                   <a>
-                    <br/>Finance Manager - Diet Club
-                    <br/>
+                    <br />Finance Manager - Diet Club
+                    <br />
                     Union Place
-                    <br/>
+                    <br />
                     Dr Colvin R de Silva Mawatha,
-                    <br/>Colombo 01000
+                    <br />Colombo 01000
                   </a>
                 </p>
               </div>
@@ -113,17 +118,17 @@ export default class Team extends Component {
 
           <div className="col-md-3">
             <div className="hovereffect">
-              <img className="img-responsive" src="/assets/ent.jpg" alt=""/>
+              <img className="img-responsive" src="/assets/ent.jpg" alt="" />
               <div className="overlay">
                 <h2>ENTERTAINMENT</h2>
                 <p>
                   <a>
-                    <br/>Finance Manager - Diet Club
-                    <br/>
+                    <br />Finance Manager - Diet Club
+                    <br />
                     Union Place
-                    <br/>
+                    <br />
                     Dr Colvin R de Silva Mawatha,
-                    <br/>Colombo 01000
+                    <br />Colombo 01000
                   </a>
                 </p>
               </div>
@@ -132,17 +137,21 @@ export default class Team extends Component {
 
           <div className="col-md-3">
             <div className="hovereffect">
-              <img className="img-responsive" src="/assets/business.jpg" alt=""/>
+              <img
+                className="img-responsive"
+                src="/assets/business.jpg"
+                alt=""
+              />
               <div className="overlay">
                 <h2>BUSINESS</h2>
                 <p>
                   <a>
-                    <br/>Finance Manager - Diet Club
-                    <br/>
+                    <br />Finance Manager - Diet Club
+                    <br />
                     Union Place
-                    <br/>
+                    <br />
                     Dr Colvin R de Silva Mawatha,
-                    <br/>Colombo 01000
+                    <br />Colombo 01000
                   </a>
                 </p>
               </div>
@@ -151,17 +160,21 @@ export default class Team extends Component {
 
           <div className="col-md-3">
             <div className="hovereffect">
-              <img className="img-responsive" src="/assets/general.jpg" alt=""/>
+              <img
+                className="img-responsive"
+                src="/assets/general.jpg"
+                alt=""
+              />
               <div className="overlay">
                 <h2>GENERAL</h2>
                 <p>
                   <a>
-                    <br/>Finance Manager - Diet Club
-                    <br/>
+                    <br />Finance Manager - Diet Club
+                    <br />
                     Union Place
-                    <br/>
+                    <br />
                     Dr Colvin R de Silva Mawatha,
-                    <br/>Colombo 01000
+                    <br />Colombo 01000
                   </a>
                 </p>
               </div>
